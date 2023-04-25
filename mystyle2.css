@@ -1,0 +1,165 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body {
+     background-color: rgb(14, 13, 13);
+}
+
+.logo_img {
+     height: 70px;
+     width: 70px;
+     border-radius: 40px;
+     /* box-shadow: 10px 10px 10px 10px whitesmoke; */
+}
+
+#name_header {
+     display: flex;
+     gap: 10px;
+}
+
+.header_text {
+     /* margin-top: 23px; */
+     font-size: 45px;
+     font-family: 'Abril Fatface', cursive;
+}
+
+#navbar {
+     background-color: #13171C;
+     color: #EBC497;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10;
+     margin-right: 10;
+     margin-left: 10;
+}
+
+#link_header {
+     display: flex;
+     gap: 80px;
+}
+
+#link_header>div>a:link,
+#link_header>div>a:visited {
+     color: #EBC497;
+     font-size: 23px;
+     text-decoration: none;
+}
+
+#link_header>div {
+     margin-top: 20px;
+     margin-right: 15px;
+}
+
+#home {
+     background-image: url("images/banner2.jpg");
+     /* background-repeat: no-repeat; */
+     background-size: cover;
+     height: 550px;
+     width: 100%;
+     margin-bottom: 100px;
+}
+
+h1 {
+     color: #EBC497;
+     font-size: 39px;
+}
+
+#aboutus {
+     display: flex;
+     margin-left: 70px;
+     margin-right: 70px;
+     margin-bottom: 100px;
+     color: whitesmoke;
+     gap: 60px;
+}
+
+#aboutus_image {
+     width: 40%;
+}
+
+#aboutus_text {
+     width: 60%;
+}
+
+#aboutus_text>h1,
+#speciality>h1 {
+     margin-bottom: 20px;
+}
+
+#aboutus_image>img {
+     border-radius: 15px;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#speciality {
+     color: whitesmoke;
+     padding-top: 30px;
+     margin-bottom: 100px;
+}
+
+.spe_text {
+     display: grid;
+     margin-left: 70px;
+     margin-top: 40px;
+     margin-right: 70px;
+     grid-template-columns: auto auto auto auto;
+     gap: 25px;
+}
+.spe_text>div
+{
+     background-color: rgb(20, 19, 19);
+     padding: 25px;
+}
+.spe_text>div>img
+{
+     height: 250px;
+     width: 100%;
+     margin-bottom: 25px;
+}
+.spe_text>div:hover
+{
+     background-color: #ad8559;
+     color: black;
+}
+#contactus
+{
+     margin-left: 70px;
+     margin-right: 70px;
+}
+#mobile_number,#email
+{
+     display: flex;
+     color: white;
+     background-color: rgb(20, 19, 19);
+     padding: 25px;
+     gap: 40px;
+}
+.number
+{
+     margin-top: 50px;
+     font-size: 2rem;
+     color: #EBC497;
+}
+.number_icon
+{
+     height: 150px;
+}
+#content
+{
+     display: flex;
+     gap: 70px;
+     margin-bottom: 50px;
+}
+#content>div
+{
+     width: 50%;
+}
+#footer
+{
+     margin-top: 20px;
+     padding: 15px;
+     color: #EBC497;
+     background-color: #13171C;
+}
